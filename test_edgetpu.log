@@ -1,0 +1,11 @@
+Edge TPU Compiler version 14.1.317412892
+Input: test.tflite
+Output: test_edgetpu.tflite
+
+Operator                       Count      Status
+
+AVERAGE_POOL_2D                1          Mapped to Edge TPU
+ADD                            43         Mapped to Edge TPU
+CONV_2D                        32         Mapped to Edge TPU
+MUL                            29         Mapped to Edge TPU
+FULLY_CONNECTED                1          Mapped to Edge TPU

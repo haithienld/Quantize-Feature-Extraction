@@ -1,0 +1,13 @@
+Edge TPU Compiler version 14.1.317412892
+Input: resnet.tflite
+Output: resnet_edgetpu.tflite
+
+Operator                       Count      Status
+
+MAX_POOL_2D                    2          Mapped to Edge TPU
+CONCATENATION                  1          Mapped to Edge TPU
+AVERAGE_POOL_2D                1          Mapped to Edge TPU
+MUL                            29         Mapped to Edge TPU
+CONV_2D                        32         Mapped to Edge TPU
+FULLY_CONNECTED                4          Mapped to Edge TPU
+ADD                            43         Mapped to Edge TPU

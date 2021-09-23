@@ -1,0 +1,15 @@
+{
+    "epochs": 30,
+    "image_size": 124,
+    "embedding_size": 1024,
+    "num_nodes": 512,
+    "learning_rate": 0.0001,
+    "dropout": 0.35,
+    "lossWeights": 0.45,
+    "steps_per_epoch": 300,
+    "callbacks": ["tb","early_stopping","reduce_lr"],
+    "optimizer": "adam",
+    "root_folder": "/home/adamduong26111996/shared_data/Vehicle-1M/",
+    "train_folder": "resnet_QAT_seg",
+    "quant_delay": 20
+}
